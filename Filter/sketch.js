@@ -81,19 +81,19 @@ function setup() {
    updatePixels();
 
    loadPixels();
-   for(var i=4*img.width*3;i<4*img.width*3.5;i+=4) {
+   for(var i=4*img.width*img.height*3;i<4*img.width*3.5*;i+=4) {
      pixels[i+1] = pixels[i]+100; //red
    }
 
    updatePixels();
 
-  //  loadPixels();
-  //  for(var i=4*img.width*2000;i<4*img.width*2400;i+=4) {
-  //    pixels[i+1] = pixels[i+1]+200; //red
-  //  }
-  //
-  //  updatePixels();
-  //
+   loadPixels();
+   for(var i=4*img.width*;i<4*img.width*2400;i+=4) {
+     pixels[i+1] = pixels[i+1]+200; //red
+   }
+  
+   updatePixels();
+  
   //  loadPixels();
   //  for(var i=4*img.width*2400;i<4*img.width*2800;i+=4) {
   //    pixels[i+1] = pixels[i+1]+70;
