@@ -6,7 +6,7 @@ var slider;
 //preload will load before setup runs
 function preload() {
 
-  img = loadImage("brandon.png"); //chooses jpg
+  img = loadImage("brandon.PNG"); //chooses jpg
   slider = createSlider(50, 255, 100); //slider for changing saturaton
   slider.position(20, 20);
 }
